@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: black;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.container h1,.logo h1{
+    color:#21EB00;
+    padding: 15px 0;
+}
+.container p{
+    color: #6c7267;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+input{
+    width: 50%;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+}
+input[type="date"]{
+    background-color: #191A18;
+    color: #6c7267;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+input[type="button"]{
+    font-size: 25px;
+    background-color:#21EB00;
+    color: black;
+}
+.logo{
+    float: left;
+}
+.btn{
+    float: right;
+    max-width: 150px;
+    font-weight: bolder;
+    margin: 15px 0;
+}
+.container2{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.container2 h1{
+    font-size: 80px;
+    color:#191A18;
+}
+.clear{
+    clear: both;
+}
+.coluna{
+    display: inline-block;
+    margin-right: -4px;
+    padding: 0 50px;
+}
+.numero{
+    color:white;
+    font-size: 100px;
+}
+.legenda{
+    color: #21EB00;
+    font-size: 30px;
+}
