@@ -35,7 +35,7 @@ function dados(){
     var data = document.getElementById('data').value;
     // esse codigo aqui em baixo é a mesma coisa que o codigo comento a baixo dele
     var passaValor= function(valor){
-    window.location = "http://127.0.0.1:5500/contador.html?dt="+valor;
+    window.location = "http://mmp052.github.io/contador.html?dt="+valor;
     }
     // function passaValor(valor){
     //     window.location = "http://127.0.0.1:5500/contador.html?dt="+valor;

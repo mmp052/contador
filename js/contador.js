@@ -19,11 +19,11 @@ function queryString(parameter) {
 }
 var data = queryString("dt");
 function reiniciar(){
-    window.location.href = "http://127.0.0.1:5500/";
+    window.location.href = "http://mmp052.github.io/";
 }
 function acabou(){
     alert('chegou o dia desejado!');
-    window.location.href = "http://127.0.0.1:5500/";
+    window.location.href = "http://mmp052.github.io/";
 }
 
 // função pra se o ano é bisexto
@@ -163,5 +163,3 @@ var numeroSeg = document.getElementById('seg');
 numeroSeg.textContent = deltaSeg;
 }
 setInterval(contador, 1000);
-
-// falta fazer o contador atualizar
