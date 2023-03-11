@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html onload="date">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>contador</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo"><h1>Contador</h1></div><!--logo-->
+            <input type="button" value="Reiniciar" class="btn" onclick="reiniciar()">
+            <div class="clear"></div>
+        </header>
+        <div class="container2">
+            <h1>Faltam</h1>
+                <div class="coluna">
+                    <p class="numero" id="dia">0</p>
+                    <p class="legenda">Dias</p>
+                </div><!--coluna-->
+                <div class="coluna">
+                    <p class="numero" id="hora">0</p>
+                    <p class="legenda">Horas</p>
+                </div><!--coluna-->
+                <div class="coluna">
+                    <p class="numero" id="min">0</p>
+                    <p class="legenda">Minutos</p>
+                </div><!--coluna-->
+                <div class="coluna">
+                    <p class="numero" id="seg">0</p>
+                    <p class="legenda">Segundos</p>
+                </div><!--coluna-->
+        </div><!--container2-->
+        <script src="js/contador.js"></script>
+    </body>
+</html>
